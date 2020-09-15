@@ -4,11 +4,11 @@
     <title>Hello Hexo</title>
     <url>/uncategorized/hello-hexo/</url>
     <content><![CDATA[<p>欢迎你来到我的博客，本篇文章将会介绍 Hexo 搭建的过程，和遇到的小问题。</p>
-<h2 id="搭建-Hexo-GitHub-阿里云服务器ECS-双线部署"><a href="#搭建-Hexo-GitHub-阿里云服务器ECS-双线部署" class="headerlink" title="搭建 Hexo + GitHub + 阿里云服务器ECS 双线部署"></a>搭建 Hexo + GitHub + 阿里云服务器ECS 双线部署</h2><h3 id="01-本地环境搭建："><a href="#01-本地环境搭建：" class="headerlink" title="01. 本地环境搭建："></a>01. 本地环境搭建：</h3><h4 id="01-1安装-node"><a href="#01-1安装-node" class="headerlink" title="01.1安装 node"></a>01.1安装 node</h4><p>在 <span class="exturl" data-url="aHR0cHM6Ly9ub2RlanMub3JnL2VuLw==">Node.js<i class="fa fa-external-link-alt"></i></span> 官网下载 node安装包，个人推荐 LTS 版。安装之后看一下版本是否安装成功：</p>
+<h2 id="搭建-Hexo-GitHub-阿里云服务器ECS-双线部署"><a href="#搭建-Hexo-GitHub-阿里云服务器ECS-双线部署" class="headerlink" title="搭建 Hexo + GitHub + 阿里云服务器ECS 双线部署"></a>搭建 Hexo + GitHub + 阿里云服务器ECS 双线部署</h2><h3 id="本地环境搭建："><a href="#本地环境搭建：" class="headerlink" title="本地环境搭建："></a>本地环境搭建：</h3><h4 id="安装-node"><a href="#安装-node" class="headerlink" title="安装 node"></a>安装 node</h4><p>在 <span class="exturl" data-url="aHR0cHM6Ly9ub2RlanMub3JnL2VuLw==">Node.js<i class="fa fa-external-link-alt"></i></span> 官网下载 node安装包，个人推荐 LTS 版。安装之后看一下版本是否安装成功：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">node -v</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm -v</span><br></pre></td></tr></table></figure>
-<h4 id="01-2-安装-git"><a href="#01-2-安装-git" class="headerlink" title="01.2 安装 git"></a>01.2 安装 git</h4><p>由于 git 下载太慢 推荐以下下载方式：</p>
+<h4 id="安装-git"><a href="#安装-git" class="headerlink" title="安装 git"></a>安装 git</h4><p>由于 git 下载太慢 推荐以下下载方式：</p>
 <h5 id="windows"><a href="#windows" class="headerlink" title="windows"></a>windows</h5><ul>
 <li>Windows 淘宝镜像下载 <span class="exturl" data-url="aHR0cHM6Ly9ucG0udGFvYmFvLm9yZy9taXJyb3JzL2dpdC1mb3Itd2luZG93cy8=">git<i class="fa fa-external-link-alt"></i></span> 倒序排列 </li>
 <li>腾讯电脑管家的 软件管理</li>
