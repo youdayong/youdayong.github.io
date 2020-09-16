@@ -7,7 +7,15 @@
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">node -v</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm -v</span><br></pre></td></tr></table></figure>
-<h4 id="添加国内镜像源"><a href="#添加国内镜像源" class="headerlink" title="添加国内镜像源"></a>添加国内镜像源</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm config <span class="built_in">set</span> registry https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
+<h4 id="添加国内镜像源"><a href="#添加国内镜像源" class="headerlink" title="添加国内镜像源"></a>添加国内镜像源</h4><ul>
+<li>npm</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm config <span class="built_in">set</span> registry https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
+<ul>
+<li>cnpm</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install -g cnpm --registry=https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
+
 <h4 id="安装-git"><a href="#安装-git" class="headerlink" title="安装 git"></a>安装 git</h4><p>由于 git 下载太慢 推荐以下下载方式：</p>
 <h5 id="windows"><a href="#windows" class="headerlink" title="windows"></a>windows</h5><ul>
 <li><p>Windows 淘宝镜像下载 <span class="exturl" data-url="aHR0cHM6Ly9ucG0udGFvYmFvLm9yZy9taXJyb3JzL2dpdC1mb3Itd2luZG93cy8=">git<i class="fa fa-external-link-alt"></i></span>  </p>
@@ -25,7 +33,38 @@
 </ul>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">/bin/zsh -c <span class="string">&quot;<span class="subst">$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)</span>&quot;</span></span><br></pre></td></tr></table></figure>
 <p><img src="/uncategorized/hello-hexo/HomebrewCN.png" alt="atl Homebrew"></p>
+<h4 id="安装git"><a href="#安装git" class="headerlink" title="安装git"></a>安装git</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">brew install git</span><br></pre></td></tr></table></figure>
+
 <h4 id="安装之后看一下版本是否安装成功："><a href="#安装之后看一下版本是否安装成功：" class="headerlink" title="安装之后看一下版本是否安装成功："></a>安装之后看一下版本是否安装成功：</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git --version</span><br></pre></td></tr></table></figure>
+<h4 id="配置全局用户名、配置全局邮箱"><a href="#配置全局用户名、配置全局邮箱" class="headerlink" title="配置全局用户名、配置全局邮箱"></a>配置全局用户名、配置全局邮箱</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global  user.name <span class="string">&quot;这里换上你的用户名&quot;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.email <span class="string">&quot;这里换上你的邮箱&quot;</span></span><br></pre></td></tr></table></figure>
+<h4 id="查看配置信息"><a href="#查看配置信息" class="headerlink" title="查看配置信息"></a>查看配置信息</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --list</span><br></pre></td></tr></table></figure>
+<h4 id="生成秘钥："><a href="#生成秘钥：" class="headerlink" title="生成秘钥："></a>生成秘钥：</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;这里换上你的邮箱&quot;</span></span><br></pre></td></tr></table></figure>
+<h4 id="打开秘匙看看是否生成："><a href="#打开秘匙看看是否生成：" class="headerlink" title="打开秘匙看看是否生成："></a>打开秘匙看看是否生成：</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">vim ~/.ssh/id_rsa.pub</span><br></pre></td></tr></table></figure>
+<h3 id="安装Hexo："><a href="#安装Hexo：" class="headerlink" title="安装Hexo："></a>安装Hexo：</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">cnpm install hexo-cli -g</span><br></pre></td></tr></table></figure>
+<h4 id="安装之后看一下版本是否安装成功：-1"><a href="#安装之后看一下版本是否安装成功：-1" class="headerlink" title="安装之后看一下版本是否安装成功："></a>安装之后看一下版本是否安装成功：</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo -v</span><br><span class="line">``` </span><br><span class="line"><span class="comment">#### 在你本地电脑新建一个文件用来放置 Hexo 文件 进入之后：</span></span><br><span class="line">+ 把Hexo安装到我们的空博客站文件中</span><br><span class="line">+ Hexo 将会在文件夹中新建所需要的文件</span><br><span class="line"></span><br><span class="line">```bash</span><br><span class="line">hexo init</span><br></pre></td></tr></table></figure>
+<ul>
+<li>安装依赖包</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">cnpm install</span><br></pre></td></tr></table></figure>
+
+<p> <img src="/uncategorized/hello-hexo/hexo-install.png" alt="hexo"></p>
+<ul>
+<li>安装Hexo必备插件</li>
+</ul>
+<ul>
+<li><p>搭建本地服务器所需插件</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">cnpm install hexo-server --save</span><br></pre></td></tr></table></figure>
+<ul>
+<li>使用git方式进行部署博客所需插件</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">cnpm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+<h3 id="本地预览Hexo博客"><a href="#本地预览Hexo博客" class="headerlink" title="本地预览Hexo博客"></a>本地预览Hexo博客</h3><h4 id="生成存放静态博客站信息的文件夹public"><a href="#生成存放静态博客站信息的文件夹public" class="headerlink" title="生成存放静态博客站信息的文件夹public"></a>生成存放静态博客站信息的文件夹public</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
+<h4 id="启动本地博客站服务"><a href="#启动本地博客站服务" class="headerlink" title="启动本地博客站服务"></a>启动本地博客站服务</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+<p><img src="/uncategorized/hello-hexo/hexo-s.png" alt="hexo"></p>
+</li>
+</ul>
+<p>本地部署已完成！接下来上传到 github.</p>
 ]]></content>
       <tags>
         <tag>hexo</tag>
