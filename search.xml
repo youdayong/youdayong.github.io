@@ -16,7 +16,7 @@
 </ul>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install -g cnpm --registry=https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
 
-<h4 id="安装-git"><a href="#安装-git" class="headerlink" title="安装 git"></a>安装 git</h4><p>由于 git 下载太慢 推荐以下下载方式：</p>
+<h3 id="安装-git"><a href="#安装-git" class="headerlink" title="安装 git"></a>安装 git</h3><p>由于 git 下载太慢 推荐以下下载方式：</p>
 <h5 id="windows"><a href="#windows" class="headerlink" title="windows"></a>windows</h5><ul>
 <li><p>Windows 淘宝镜像下载 <span class="exturl" data-url="aHR0cHM6Ly9ucG0udGFvYmFvLm9yZy9taXJyb3JzL2dpdC1mb3Itd2luZG93cy8=">git<i class="fa fa-external-link-alt"></i></span>  </p>
 </li>
@@ -42,7 +42,14 @@
 <h4 id="生成秘钥："><a href="#生成秘钥：" class="headerlink" title="生成秘钥："></a>生成秘钥：</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;这里换上你的邮箱&quot;</span></span><br></pre></td></tr></table></figure>
 <h4 id="打开秘匙看看是否生成："><a href="#打开秘匙看看是否生成：" class="headerlink" title="打开秘匙看看是否生成："></a>打开秘匙看看是否生成：</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">vim ~/.ssh/id_rsa.pub</span><br></pre></td></tr></table></figure>
 <h3 id="安装Hexo："><a href="#安装Hexo：" class="headerlink" title="安装Hexo："></a>安装Hexo：</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">cnpm install hexo-cli -g</span><br></pre></td></tr></table></figure>
-<h4 id="安装之后看一下版本是否安装成功：-1"><a href="#安装之后看一下版本是否安装成功：-1" class="headerlink" title="安装之后看一下版本是否安装成功："></a>安装之后看一下版本是否安装成功：</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo -v</span><br><span class="line">``` </span><br><span class="line"><span class="comment">#### 在你本地电脑新建一个文件用来放置 Hexo 文件 进入之后：</span></span><br><span class="line">+ 把Hexo安装到我们的空博客站文件中</span><br><span class="line">+ Hexo 将会在文件夹中新建所需要的文件</span><br><span class="line"></span><br><span class="line">```bash</span><br><span class="line">hexo init</span><br></pre></td></tr></table></figure>
+<h4 id="安装之后看一下版本是否安装成功：-1"><a href="#安装之后看一下版本是否安装成功：-1" class="headerlink" title="安装之后看一下版本是否安装成功："></a>安装之后看一下版本是否安装成功：</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure>
+
+<h4 id="在你本地电脑新建一个文件用来放置-Hexo-文件-进入之后："><a href="#在你本地电脑新建一个文件用来放置-Hexo-文件-进入之后：" class="headerlink" title="在你本地电脑新建一个文件用来放置 Hexo 文件 进入之后："></a>在你本地电脑新建一个文件用来放置 Hexo 文件 进入之后：</h4><ul>
+<li>把Hexo安装到我们的空博客站文件中</li>
+<li>Hexo 将会在文件夹中新建所需要的文件</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
+
 <ul>
 <li>安装依赖包</li>
 </ul>
