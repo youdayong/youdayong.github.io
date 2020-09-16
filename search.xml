@@ -28,17 +28,25 @@
 <h4 id="添加国内镜像源"><a href="#添加国内镜像源" class="headerlink" title="添加国内镜像源"></a>添加国内镜像源</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm config <span class="built_in">set</span> registry https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
 <h4 id="安装-git"><a href="#安装-git" class="headerlink" title="安装 git"></a>安装 git</h4><p>由于 git 下载太慢 推荐以下下载方式：</p>
 <h5 id="windows"><a href="#windows" class="headerlink" title="windows"></a>windows</h5><ul>
-<li>Windows 淘宝镜像下载 <span class="exturl" data-url="aHR0cHM6Ly9ucG0udGFvYmFvLm9yZy9taXJyb3JzL2dpdC1mb3Itd2luZG93cy8=">git<i class="fa fa-external-link-alt"></i></span>  </li>
-<li>腾讯电脑管家的 软件管理</li>
+<li><p>Windows 淘宝镜像下载 <span class="exturl" data-url="aHR0cHM6Ly9ucG0udGFvYmFvLm9yZy9taXJyb3JzL2dpdC1mb3Itd2luZG93cy8=">git<i class="fa fa-external-link-alt"></i></span>  </p>
+</li>
+<li><p>腾讯电脑管家的 软件管理</p>
+</li>
 </ul>
 <h5 id="Mac"><a href="#Mac" class="headerlink" title="Mac"></a>Mac</h5><ul>
-<li>官网下载 <span class="exturl" data-url="aHR0cHM6Ly9naXQtc2NtLmNvbS9kb3dubG9hZHM=">git<i class="fa fa-external-link-alt"></i></span></li>
-<li>homebrew方式下载：</li>
-<li>安装 homebrew 并换国内站点</li>
+<li><p>官网下载 <span class="exturl" data-url="aHR0cHM6Ly9naXQtc2NtLmNvbS9kb3dubG9hZHM=">git<i class="fa fa-external-link-alt"></i></span></p>
+</li>
+<li><p>homebrew方式下载：</p>
+</li>
+<li><p>安装 homebrew 并换国内站点 (⚠️注意：如果你之前有安装 homebrew 此次操作会删除之前的 brew 和它下载的软件)</p>
+</li>
 </ul>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">/bin/zsh -c <span class="string">&quot;<span class="subst">$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)</span>&quot;</span></span><br></pre></td></tr></table></figure>
 <p><img src="/uncategorized/post-hello-hexo/HomebrewCN.png" alt="Homebrew"></p>
 <h4 id="安装之后看一下版本是否安装成功："><a href="#安装之后看一下版本是否安装成功：" class="headerlink" title="安装之后看一下版本是否安装成功："></a>安装之后看一下版本是否安装成功：</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git --version</span><br></pre></td></tr></table></figure>
 ]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
   </entry>
 </search>
