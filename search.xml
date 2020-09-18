@@ -1,23 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>JavaScript-基础知识-代码结构与规范</title>
-    <url>/uncategorized/JavaScript-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86-%E4%BB%A3%E7%A0%81%E7%BB%93%E6%9E%84%E4%B8%8E%E8%A7%84%E8%8C%83/</url>
-    <content><![CDATA[<h3 id="1-2-JavaScript-基础知识-代码结构与规范"><a href="#1-2-JavaScript-基础知识-代码结构与规范" class="headerlink" title="1.2.JavaScript-基础知识-代码结构与规范"></a>1.2.JavaScript-基础知识-代码结构与规范</h3><h4 id="1-2-1-代码结构"><a href="#1-2-1-代码结构" class="headerlink" title="1.2.1 代码结构"></a>1.2.1 代码结构</h4><p>我们可以在代码中编写任意数量的语句，语句和语句之间使用英文分号 (;)，进行分割。</p>
-<ul>
-<li><p>例如将 “Hello Word” ：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">  </span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
     <title>JavaScript-基础知识-JavaScript-引用方式</title>
     <url>/uncategorized/JavaScript-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86-JavaScript-%E5%BC%95%E7%94%A8%E6%96%B9%E5%BC%8F/</url>
-    <content><![CDATA[<h3 id="1-JavaScript-基础知识："><a href="#1-JavaScript-基础知识：" class="headerlink" title="1. JavaScript 基础知识："></a>1. JavaScript 基础知识：</h3><h4 id="1-1-JavaScript-引用方式-“script”-标签："><a href="#1-1-JavaScript-引用方式-“script”-标签：" class="headerlink" title="1.1 JavaScript 引用方式 “script” 标签："></a>1.1 JavaScript 引用方式 “script” 标签：</h4><h5 id="1-1-1-JavaScript-程序-可以在-lt-script-gt-标签的帮助下插入到-HTML-文档的任何地方。"><a href="#1-1-1-JavaScript-程序-可以在-lt-script-gt-标签的帮助下插入到-HTML-文档的任何地方。" class="headerlink" title="1.1.1 JavaScript 程序 可以在 &lt;script&gt;  标签的帮助下插入到 HTML 文档的任何地方。"></a>1.1.1 JavaScript 程序 可以在 <code>&lt;script&gt;</code>  标签的帮助下插入到 HTML 文档的任何地方。</h5><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html lang=<span class="string">&quot;zh-CN&quot;</span>&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">  &lt;meta charset=<span class="string">&quot;UTF-8&quot;</span>&gt;</span><br><span class="line">  &lt;meta name=<span class="string">&quot;viewport&quot;</span> content=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span><br><span class="line">  &lt;title&gt;text&lt;/title&gt;</span><br><span class="line">  &lt;!-- 1 --&gt;</span><br><span class="line">  &lt;script&gt;&lt;/script&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">  &lt;!-- 2 --&gt;</span><br><span class="line">  &lt;script&gt;&lt;/script&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;!-- 3 --&gt;</span><br><span class="line">&lt;script&gt;&lt;/script&gt;</span><br><span class="line">&lt;/html&gt;</span><br><span class="line">&lt;!-- 4 --&gt;</span><br><span class="line">&lt;script&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+    <content><![CDATA[<h3 id="1-JavaScript-基础知识："><a href="#1-JavaScript-基础知识：" class="headerlink" title="1. JavaScript 基础知识："></a>1. JavaScript 基础知识：</h3><h4 id="1-1-JavaScript-引用方式-“script”-标签："><a href="#1-1-JavaScript-引用方式-“script”-标签：" class="headerlink" title="1.1. JavaScript 引用方式 “script” 标签："></a>1.1. JavaScript 引用方式 “script” 标签：</h4><h5 id="1-1-1-嵌入可执行脚本"><a href="#1-1-1-嵌入可执行脚本" class="headerlink" title="1.1.1. 嵌入可执行脚本"></a>1.1.1. 嵌入可执行脚本</h5><ul>
+<li>JavaScript 程序 可以在 <code>&lt;script&gt;</code>  标签的帮助下插入到 HTML 文档的任何地方。</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html lang=<span class="string">&quot;zh-CN&quot;</span>&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">  &lt;meta charset=<span class="string">&quot;UTF-8&quot;</span>&gt;</span><br><span class="line">  &lt;meta name=<span class="string">&quot;viewport&quot;</span> content=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span><br><span class="line">  &lt;title&gt;text&lt;/title&gt;</span><br><span class="line">  &lt;!-- 1 --&gt;</span><br><span class="line">  &lt;script&gt;&lt;/script&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">  &lt;!-- 2 --&gt;</span><br><span class="line">  &lt;script&gt;&lt;/script&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;!-- 3 --&gt;</span><br><span class="line">&lt;script&gt;&lt;/script&gt;</span><br><span class="line">&lt;/html&gt;</span><br><span class="line">&lt;!-- 4 --&gt;</span><br><span class="line">&lt;script&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
 
 <p><code>script</code> 标签中包裹了 JavaScript 代码 （类似 CSS <code>style</code> 标签）当浏览器解析到 <code>script</code> 标签，代码会自动运行。</p>
-<h5 id="1-1-2-外部脚本"><a href="#1-1-2-外部脚本" class="headerlink" title="1.1.2 外部脚本"></a>1.1.2 外部脚本</h5><p>如果有大量的 JavaScript 代码时，我们可以将它放入一个独立的文件夹里（同CSS），脚本文件可以通过 <code>&lt;script&gt;</code> 的 <code>src</code> 特性，添加到 HTML 文件中（CSS 是使用 <code>link</code> 的 <code>href</code> 区分一下）。 </p>
+<h5 id="1-1-2-引用可执行脚本"><a href="#1-1-2-引用可执行脚本" class="headerlink" title="1.1.2. 引用可执行脚本"></a>1.1.2. 引用可执行脚本</h5><p>如果有大量的 JavaScript 代码时，我们可以将它放入一个独立的文件夹里（同CSS），脚本文件可以通过 <code>&lt;script&gt;</code> 的 <code>src</code> 特性，添加到 HTML 文件中（CSS 是使用 <code>link</code> 的 <code>href</code> 区分一下）。 </p>
 <p>JavaScript <code>script</code>:</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;script src=<span class="string">&quot;&quot;</span>&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
 
@@ -43,7 +35,7 @@
 </ul>
 <p><code>async</code> ：async 属性一旦脚本可用，则会异步执行。只对外部脚本文件有效。</p>
 <p><code>defer</code> ：defer 属性规定当页面已完成加载后，才会执行脚本。只对外部脚本文件有效。</p>
-<h5 id="注意-⚠️"><a href="#注意-⚠️" class="headerlink" title="注意 ⚠️"></a>注意 ⚠️</h5><ul>
+<h5 id="1-1-3-注意-⚠️"><a href="#1-1-3-注意-⚠️" class="headerlink" title="1.1.3.注意 ⚠️"></a>1.1.3.注意 ⚠️</h5><ul>
 <li>如果设置了 src 特性，script 标签内容将会被忽略。<br>一个单独的 <code>srcipt</code> 标签不能同时有 <code>src</code> 特性和内部包裹的代码。<br>这将不会工作，例如：</li>
 </ul>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;script defe src=<span class="string">&quot;text.js&quot;</span>&gt;</span><br><span class="line">alert(<span class="string">&quot;hello word&quot;</span>)</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
@@ -53,11 +45,15 @@
 ]]></content>
   </entry>
   <entry>
-    <title>hello-hexo-Github</title>
-    <url>/uncategorized/hello-hexo-Github/</url>
-    <content><![CDATA[<h2 id="2-搭建-Hexo-Github"><a href="#2-搭建-Hexo-Github" class="headerlink" title="2. 搭建 Hexo + Github"></a>2. 搭建 Hexo + Github</h2><h3 id="2-1-Github-配置-："><a href="#2-1-Github-配置-：" class="headerlink" title="2.1. Github 配置 ："></a>2.1. Github 配置 ：</h3><h4 id="2-1-1-注册-GitHub-账号"><a href="#2-1-1-注册-GitHub-账号" class="headerlink" title="2.1.1. 注册 GitHub 账号"></a>2.1.1. 注册 GitHub 账号</h4><p>访问 <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLw==">github<i class="fa fa-external-link-alt"></i></span> 官网，注册账号，(⚠️注意：起名不要太随意！）</p>
-<p><img src="/uncategorized/hello-hexo-Github/GitHub.png" alt="GitHub"></p>
-<h3 id="2-1-2-配置-GitHub-SSH"><a href="#2-1-2-配置-GitHub-SSH" class="headerlink" title="2.1.2. 配置 GitHub SSH"></a>2.1.2. 配置 GitHub SSH</h3>]]></content>
+    <title>JavaScript-基础知识-代码结构与规范</title>
+    <url>/uncategorized/JavaScript-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86-%E4%BB%A3%E7%A0%81%E7%BB%93%E6%9E%84%E4%B8%8E%E8%A7%84%E8%8C%83/</url>
+    <content><![CDATA[<h3 id="1-2-JavaScript-基础知识-代码结构与规范"><a href="#1-2-JavaScript-基础知识-代码结构与规范" class="headerlink" title="1.2.JavaScript-基础知识-代码结构与规范"></a>1.2.JavaScript-基础知识-代码结构与规范</h3><h4 id="1-2-1-代码结构"><a href="#1-2-1-代码结构" class="headerlink" title="1.2.1 代码结构"></a>1.2.1 代码结构</h4><p>我们可以在代码中编写任意数量的语句，语句和语句之间使用英文分号 (;)，进行分割。</p>
+<ul>
+<li><p>例如将 “Hello Word” ：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">  </span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+]]></content>
   </entry>
   <entry>
     <title>hello-hexo</title>
@@ -134,6 +130,13 @@
       <tags>
         <tag>hexo</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>hello-hexo-Github</title>
+    <url>/uncategorized/hello-hexo-Github/</url>
+    <content><![CDATA[<h2 id="2-搭建-Hexo-Github"><a href="#2-搭建-Hexo-Github" class="headerlink" title="2. 搭建 Hexo + Github"></a>2. 搭建 Hexo + Github</h2><h3 id="2-1-Github-配置-："><a href="#2-1-Github-配置-：" class="headerlink" title="2.1. Github 配置 ："></a>2.1. Github 配置 ：</h3><h4 id="2-1-1-注册-GitHub-账号"><a href="#2-1-1-注册-GitHub-账号" class="headerlink" title="2.1.1. 注册 GitHub 账号"></a>2.1.1. 注册 GitHub 账号</h4><p>访问 <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLw==">github<i class="fa fa-external-link-alt"></i></span> 官网，注册账号，(⚠️注意：起名不要太随意！）</p>
+<p><img src="/uncategorized/hello-hexo-Github/GitHub.png" alt="GitHub"></p>
+<h3 id="2-1-2-配置-GitHub-SSH"><a href="#2-1-2-配置-GitHub-SSH" class="headerlink" title="2.1.2. 配置 GitHub SSH"></a>2.1.2. 配置 GitHub SSH</h3>]]></content>
   </entry>
   <entry>
     <title>Hello World</title>
