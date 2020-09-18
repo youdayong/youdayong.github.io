@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>JavaScript-基础知识-代码结构与规范JavaScript-基础知识-JavaScript-引用方式</title>
-    <url>/uncategorized/JavaScript-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86-%E4%BB%A3%E7%A0%81%E7%BB%93%E6%9E%84%E4%B8%8E%E8%A7%84%E8%8C%83JavaScript-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86-JavaScript-%E5%BC%95%E7%94%A8%E6%96%B9%E5%BC%8F/</url>
+    <title>JavaScript-基础知识-代码结构与规范</title>
+    <url>/uncategorized/JavaScript-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86-%E4%BB%A3%E7%A0%81%E7%BB%93%E6%9E%84%E4%B8%8E%E8%A7%84%E8%8C%83/</url>
     <content><![CDATA[<h3 id="1-2-JavaScript-基础知识-代码结构与规范"><a href="#1-2-JavaScript-基础知识-代码结构与规范" class="headerlink" title="1.2.JavaScript-基础知识-代码结构与规范"></a>1.2.JavaScript-基础知识-代码结构与规范</h3><h4 id="1-2-1-代码结构"><a href="#1-2-1-代码结构" class="headerlink" title="1.2.1 代码结构"></a>1.2.1 代码结构</h4><p>我们可以在代码中编写任意数量的语句，语句和语句之间使用英文分号 (;)，进行分割。</p>
 <ul>
 <li><p>例如将 “Hello Word” ：</p>
@@ -10,13 +10,6 @@
 </li>
 </ul>
 ]]></content>
-  </entry>
-  <entry>
-    <title>hello-hexo-Github</title>
-    <url>/uncategorized/hello-hexo-Github/</url>
-    <content><![CDATA[<h2 id="2-搭建-Hexo-Github"><a href="#2-搭建-Hexo-Github" class="headerlink" title="2. 搭建 Hexo + Github"></a>2. 搭建 Hexo + Github</h2><h3 id="2-1-Github-配置-："><a href="#2-1-Github-配置-：" class="headerlink" title="2.1. Github 配置 ："></a>2.1. Github 配置 ：</h3><h4 id="2-1-1-注册-GitHub-账号"><a href="#2-1-1-注册-GitHub-账号" class="headerlink" title="2.1.1. 注册 GitHub 账号"></a>2.1.1. 注册 GitHub 账号</h4><p>访问 <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLw==">github<i class="fa fa-external-link-alt"></i></span> 官网，注册账号，(⚠️注意：起名不要太随意！）</p>
-<p><img src="/uncategorized/hello-hexo-Github/GitHub.png" alt="GitHub"></p>
-<h3 id="2-1-2-配置-GitHub-SSH"><a href="#2-1-2-配置-GitHub-SSH" class="headerlink" title="2.1.2. 配置 GitHub SSH"></a>2.1.2. 配置 GitHub SSH</h3>]]></content>
   </entry>
   <entry>
     <title>JavaScript-基础知识-JavaScript-引用方式</title>
@@ -58,6 +51,13 @@
 <li>要么使用外部的 <code>&lt;script defe src=&quot;...&quot;&gt;&lt;/script&gt;</code>,要么使用 <code>&lt;srcipt&gt;&lt;/srcipt&gt;</code> 包裹代码。</li>
 </ul>
 ]]></content>
+  </entry>
+  <entry>
+    <title>hello-hexo-Github</title>
+    <url>/uncategorized/hello-hexo-Github/</url>
+    <content><![CDATA[<h2 id="2-搭建-Hexo-Github"><a href="#2-搭建-Hexo-Github" class="headerlink" title="2. 搭建 Hexo + Github"></a>2. 搭建 Hexo + Github</h2><h3 id="2-1-Github-配置-："><a href="#2-1-Github-配置-：" class="headerlink" title="2.1. Github 配置 ："></a>2.1. Github 配置 ：</h3><h4 id="2-1-1-注册-GitHub-账号"><a href="#2-1-1-注册-GitHub-账号" class="headerlink" title="2.1.1. 注册 GitHub 账号"></a>2.1.1. 注册 GitHub 账号</h4><p>访问 <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLw==">github<i class="fa fa-external-link-alt"></i></span> 官网，注册账号，(⚠️注意：起名不要太随意！）</p>
+<p><img src="/uncategorized/hello-hexo-Github/GitHub.png" alt="GitHub"></p>
+<h3 id="2-1-2-配置-GitHub-SSH"><a href="#2-1-2-配置-GitHub-SSH" class="headerlink" title="2.1.2. 配置 GitHub SSH"></a>2.1.2. 配置 GitHub SSH</h3>]]></content>
   </entry>
   <entry>
     <title>hello-hexo</title>
