@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>JavaScript-基础知识-JavaScript-引用方式</title>
-    <url>/uncategorized/JavaScript-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86-JavaScript-%E5%BC%95%E7%94%A8%E6%96%B9%E5%BC%8F/</url>
+    <title>JavaScript-基础知识-代码结构与规范</title>
+    <url>/uncategorized/JavaScript-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86-%E4%BB%A3%E7%A0%81%E7%BB%93%E6%9E%84%E4%B8%8E%E8%A7%84%E8%8C%83/</url>
+    <content><![CDATA[<h3 id="1-2-JavaScript-基础知识-代码结构与规范"><a href="#1-2-JavaScript-基础知识-代码结构与规范" class="headerlink" title="1.2.JavaScript-基础知识-代码结构与规范"></a>1.2.JavaScript-基础知识-代码结构与规范</h3><h4 id="1-2-1-代码结构"><a href="#1-2-1-代码结构" class="headerlink" title="1.2.1 代码结构"></a>1.2.1 代码结构</h4><p>我们可以在代码中编写任意数量的语句，语句和语句之间使用英文分号 (;)，进行分割。</p>
+<ul>
+<li><p>例如将 “Hello Word” ：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">  </span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>JavaScript-基础知识-引用方式</title>
+    <url>/uncategorized/JavaScript-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86-%E5%BC%95%E7%94%A8%E6%96%B9%E5%BC%8F/</url>
     <content><![CDATA[<h3 id="1-JavaScript-基础知识："><a href="#1-JavaScript-基础知识：" class="headerlink" title="1. JavaScript 基础知识："></a>1. JavaScript 基础知识：</h3><h4 id="1-1-JavaScript-引用方式-“script”-标签："><a href="#1-1-JavaScript-引用方式-“script”-标签：" class="headerlink" title="1.1. JavaScript 引用方式 “script” 标签："></a>1.1. JavaScript 引用方式 “script” 标签：</h4><h5 id="1-1-1-嵌入可执行脚本"><a href="#1-1-1-嵌入可执行脚本" class="headerlink" title="1.1.1. 嵌入可执行脚本"></a>1.1.1. 嵌入可执行脚本</h5><ul>
 <li>JavaScript 程序 可以在 <code>&lt;script&gt;</code>  标签的帮助下插入到 HTML 文档的任何地方。</li>
 </ul>
@@ -52,14 +63,21 @@
 <h3 id="2-1-2-配置-GitHub-SSH"><a href="#2-1-2-配置-GitHub-SSH" class="headerlink" title="2.1.2. 配置 GitHub SSH"></a>2.1.2. 配置 GitHub SSH</h3>]]></content>
   </entry>
   <entry>
-    <title>JavaScript-基础知识-代码结构与规范</title>
-    <url>/uncategorized/JavaScript-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86-%E4%BB%A3%E7%A0%81%E7%BB%93%E6%9E%84%E4%B8%8E%E8%A7%84%E8%8C%83/</url>
-    <content><![CDATA[<h3 id="1-2-JavaScript-基础知识-代码结构与规范"><a href="#1-2-JavaScript-基础知识-代码结构与规范" class="headerlink" title="1.2.JavaScript-基础知识-代码结构与规范"></a>1.2.JavaScript-基础知识-代码结构与规范</h3><h4 id="1-2-1-代码结构"><a href="#1-2-1-代码结构" class="headerlink" title="1.2.1 代码结构"></a>1.2.1 代码结构</h4><p>我们可以在代码中编写任意数量的语句，语句和语句之间使用英文分号 (;)，进行分割。</p>
-<ul>
-<li><p>例如将 “Hello Word” ：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">  </span><br></pre></td></tr></table></figure>
-</li>
-</ul>
+    <title>Hello World</title>
+    <url>/uncategorized/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvLw==">Hexo<i class="fa fa-external-link-alt"></i></span>! This is your very first post. Check <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv">documentation<i class="fa fa-external-link-alt"></i></span> for more info. If you get any problems when using Hexo, you can find the answer in <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=">troubleshooting<i class="fa fa-external-link-alt"></i></span> or you can ask me on <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==">GitHub<i class="fa fa-external-link-alt"></i></span>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s">Writing<i class="fa fa-external-link-alt"></i></span></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=">Server<i class="fa fa-external-link-alt"></i></span></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s">Generating<i class="fa fa-external-link-alt"></i></span></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s">Deployment<i class="fa fa-external-link-alt"></i></span></p>
 ]]></content>
   </entry>
   <entry>
@@ -137,23 +155,5 @@
       <tags>
         <tag>hexo</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/uncategorized/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvLw==">Hexo<i class="fa fa-external-link-alt"></i></span>! This is your very first post. Check <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv">documentation<i class="fa fa-external-link-alt"></i></span> for more info. If you get any problems when using Hexo, you can find the answer in <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=">troubleshooting<i class="fa fa-external-link-alt"></i></span> or you can ask me on <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==">GitHub<i class="fa fa-external-link-alt"></i></span>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s">Writing<i class="fa fa-external-link-alt"></i></span></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=">Server<i class="fa fa-external-link-alt"></i></span></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s">Generating<i class="fa fa-external-link-alt"></i></span></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s">Deployment<i class="fa fa-external-link-alt"></i></span></p>
-]]></content>
   </entry>
 </search>
