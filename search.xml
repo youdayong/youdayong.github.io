@@ -12,6 +12,11 @@
 ]]></content>
   </entry>
   <entry>
+    <title></title>
+    <url>/uncategorized/JavaScript%20%E4%B8%AD%E6%9C%89%208%20%E7%A7%8D%E5%9F%BA%E6%9C%AC%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>JavaScript-基础知识-引用方式</title>
     <url>/uncategorized/JavaScript-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86-%E5%BC%95%E7%94%A8%E6%96%B9%E5%BC%8F/</url>
     <content><![CDATA[<h3 id="1-JavaScript-基础知识："><a href="#1-JavaScript-基础知识：" class="headerlink" title="1. JavaScript 基础知识："></a>1. JavaScript 基础知识：</h3><h4 id="1-1-JavaScript-引用方式-“script”-标签："><a href="#1-1-JavaScript-引用方式-“script”-标签：" class="headerlink" title="1.1. JavaScript 引用方式 “script” 标签："></a>1.1. JavaScript 引用方式 “script” 标签：</h4><h5 id="1-1-1-嵌入可执行脚本"><a href="#1-1-1-嵌入可执行脚本" class="headerlink" title="1.1.1. 嵌入可执行脚本"></a>1.1.1. 嵌入可执行脚本</h5><ul>
@@ -53,6 +58,75 @@
 <ul>
 <li>⚠️ JavaScript 引用方式：要么使用外部的 <code>&lt;script defe src=&quot;...&quot;&gt;&lt;/script&gt;</code>,要么使用 <code>&lt;srcipt&gt;&lt;/srcipt&gt;</code> 包裹代码。</li>
 </ul>
+]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/uncategorized/JavaScript-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</url>
+    <content><![CDATA[<h1 id="JavaScript-数据类型："><a href="#JavaScript-数据类型：" class="headerlink" title="JavaScript 数据类型："></a>JavaScript 数据类型：</h1><h3 id="在-JavaScript-中有8中数据类型（-7-种原始类型，1-种引用类型）："><a href="#在-JavaScript-中有8中数据类型（-7-种原始类型，1-种引用类型）：" class="headerlink" title="在 JavaScript 中有8中数据类型（ 7 种原始类型，1 种引用类型）："></a>在 JavaScript 中有8中数据类型（ 7 种原始类型，1 种引用类型）：</h3><h4 id="1-Number-类型："><a href="#1-Number-类型：" class="headerlink" title="1. Number 类型："></a>1. Number 类型：</h4><p><code>number</code> 用于任何类型的数字: 整数或浮点数，在 ±253 范围内的整数。</p>
+<h4 id="2-BigInt-类型："><a href="#2-BigInt-类型：" class="headerlink" title="2. BigInt 类型："></a>2. BigInt 类型：</h4><p><code>BigInt</code> 用于任意长度的整数。</p>
+<p>可以通过将 <code>n</code> 附加到整数字段的末尾来创建 <code>BigInt</code> 值。</p>
+<ul>
+<li>例如：</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">// 尾部的 <span class="string">&quot;n&quot;</span> 表示这是一个 BigInt 类型</span><br><span class="line">  const bigInt = 1234567890123456789012345678901234567890n;</span><br></pre></td></tr></table></figure>
+<p>  注意：兼容性问题</p>
+<p>目前 Firefox/Chrome/Edge 已经支持 <code>BigInt</code> 了，但 Safari/IE 还没有。</p>
+<h4 id="3-String-类型："><a href="#3-String-类型：" class="headerlink" title="3. String 类型："></a>3. String 类型：</h4><p><code>string</code> 用于字符串：一个字符串可以包含 0 个或多个字符，所以没有单独的单字符类型。</p>
+<p>JavaScript 中的字符串必须括在引号里。</p>
+<ul>
+<li><p>双引号：””</p>
+</li>
+<li><p>单引号：’ ‘</p>
+</li>
+<li><p>反引号：``</p>
+<p>双引号和单引号都是简单引用，基本没有区别。</p>
+<p>反引号是 功能扩展 引号。它允许将变量和表达式包装在 ${…} 中，来将它们嵌入字符串里。</p>
+<p>例如：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">let</span> name = <span class="string">&quot;john&quot;</span>;</span><br><span class="line"></span><br><span class="line">  // 嵌入一个变量</span><br><span class="line"></span><br><span class="line">  alert (`Hello,<span class="variable">$&#123;name&#125;</span>`!);</span><br><span class="line">  //hello,john</span><br><span class="line">  </span><br><span class="line">  // 嵌入一个表达式</span><br><span class="line">  alert(`the result is $(1 + 2)`);</span><br><span class="line">  // the result is 3</span><br></pre></td></tr></table></figure>
+
+
+
+</li>
+</ul>
+<h4 id="4-Boolean-类型（逻辑类型）"><a href="#4-Boolean-类型（逻辑类型）" class="headerlink" title="4. Boolean 类型（逻辑类型）"></a>4. Boolean 类型（逻辑类型）</h4><p>boolean 类型仅包含两个值：true 和 false。</p>
+<h4 id="5-“null”-值"><a href="#5-“null”-值" class="headerlink" title="5. “null” 值"></a>5. “null” 值</h4><p>特殊的 null 值不属于上述任何一种类型。</p>
+<p>它构成一个独立的类型，用于未知的值 —— 只有一个 <code>null</code> 值的独立类型。</p>
+<h4 id="6-“undefind”-值："><a href="#6-“undefind”-值：" class="headerlink" title="6. “undefind” 值："></a>6. “undefind” 值：</h4><p>特殊值 undefined 和 null 一样自成类型。</p>
+<p>undefined 用于未定义的值 —— 只有一个 <code>undefined</code> 值的独立类型。</p>
+<ul>
+<li><p>如果一个变量已声明，没有被赋值，那么他的值就是 undefined。</p>
+</li>
+<li><p>例如：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">let</span> age;</span><br><span class="line">alert(age);</span><br><span class="line">//<span class="string">&quot;undefind&quot;</span></span><br></pre></td></tr></table></figure>
+
+
+
+</li>
+</ul>
+<h4 id="7-object-类型"><a href="#7-object-类型" class="headerlink" title="7. object 类型"></a>7. object 类型</h4><p>object 类型是一个特殊的类型，用于更复杂的数据结构。</p>
+<p>其他的所有数据类型成为 “原始类型”，因为他们的值只包含一个单独的内容（字符串，数字或者其他）。相反，object 则用于存储集合和更复杂的实体。</p>
+<h4 id="8-symbol-类型"><a href="#8-symbol-类型" class="headerlink" title="8. symbol 类型"></a>8. symbol 类型</h4><p>symbol 用于唯一的标识符。</p>
+<h3 id="typeof-运算符"><a href="#typeof-运算符" class="headerlink" title="typeof 运算符"></a>typeof 运算符</h3><p>我们可以通过 <code>typeof</code> 运算符查看存储在变量中的数据类型。</p>
+<p>它支持两种语法形式；</p>
+<ul>
+<li><p>作为运算符：typeofx</p>
+</li>
+<li><p>函数形式：typeof (x)</p>
+<p>换言之，有括号和没有括号得到的结果是一样的。</p>
+</li>
+</ul>
+<p>对 typeof x 的调用会以字符串的形式返回数据类型</p>
+<ul>
+<li>例如：</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">typeof undefinde // <span class="string">&quot;undefinde&quot;</span></span><br><span class="line"></span><br><span class="line">typeof 0 // <span class="string">&quot;number&quot;</span></span><br><span class="line"></span><br><span class="line">typeof 10n // <span class="string">&quot;bigint&quot;</span></span><br><span class="line"></span><br><span class="line">typeof <span class="literal">true</span> // <span class="string">&quot;bolean&quot;</span></span><br><span class="line"></span><br><span class="line">typeof <span class="string">&quot;foo&quot;</span> // <span class="string">&quot;string&quot;</span></span><br><span class="line"></span><br><span class="line">typeof Symbol(<span class="string">&quot;id&quot;</span>) // <span class="string">&quot;symbol&quot;</span> </span><br><span class="line"></span><br><span class="line">typeof Math // <span class="string">&quot;object&quot;</span> (1)</span><br><span class="line"></span><br><span class="line">typeof null // <span class="string">&quot;object&quot;</span> (2)</span><br><span class="line"></span><br><span class="line">typeof alert // <span class="string">&quot;function&quot;</span> (3)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+<p>1&gt; Math 是一个提供数学运算的内建 object 。</p>
+<p>2&gt; typeof null 的结果是 “object” 。这个是官方承认的 typeof 的行为错误，这个问题来源 JavaScript 语言早期，并为了兼容性保留了下来。null 绝不是一个 object 。null 有自己的类型，它是一个特殊值。</p>
+<p>3&gt; type alert 的结果是 ：“function” ，因为 alert 在 JavaScript 语言中是一个函数。</p>
 ]]></content>
   </entry>
   <entry>
