@@ -107,7 +107,7 @@
 <h4 id="7-object-类型"><a href="#7-object-类型" class="headerlink" title="7. object 类型"></a>7. object 类型</h4><p>object 类型是一个特殊的类型，用于更复杂的数据结构。</p>
 <p>其他的所有数据类型成为 “原始类型”，因为他们的值只包含一个单独的内容（字符串，数字或者其他）。相反，object 则用于存储集合和更复杂的实体。</p>
 <h4 id="8-symbol-类型"><a href="#8-symbol-类型" class="headerlink" title="8. symbol 类型"></a>8. symbol 类型</h4><p>symbol 用于唯一的标识符。</p>
-<h3 id="typeof-运算符"><a href="#typeof-运算符" class="headerlink" title="typeof 运算符"></a>typeof 运算符</h3><p>我们可以通过 <code>typeof</code> 运算符查看存储在变量中的数据类型。</p>
+<h4 id="9-typeof-运算符"><a href="#9-typeof-运算符" class="headerlink" title="9. typeof 运算符"></a>9. typeof 运算符</h4><p>我们可以通过 <code>typeof</code> 运算符查看存储在变量中的数据类型。</p>
 <p>它支持两种语法形式；</p>
 <ul>
 <li><p>作为运算符：typeofx</p>
@@ -128,13 +128,6 @@
 <p>2&gt; typeof null 的结果是 “object” 。这个是官方承认的 typeof 的行为错误，这个问题来源 JavaScript 语言早期，并为了兼容性保留了下来。null 绝不是一个 object 。null 有自己的类型，它是一个特殊值。</p>
 <p>3&gt; type alert 的结果是 ：“function” ，因为 alert 在 JavaScript 语言中是一个函数。</p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>hello-hexo-Github</title>
-    <url>/uncategorized/hello-hexo-Github/</url>
-    <content><![CDATA[<h2 id="2-搭建-Hexo-Github"><a href="#2-搭建-Hexo-Github" class="headerlink" title="2. 搭建 Hexo + Github"></a>2. 搭建 Hexo + Github</h2><h3 id="2-1-Github-配置-："><a href="#2-1-Github-配置-：" class="headerlink" title="2.1. Github 配置 ："></a>2.1. Github 配置 ：</h3><h4 id="2-1-1-注册-GitHub-账号"><a href="#2-1-1-注册-GitHub-账号" class="headerlink" title="2.1.1. 注册 GitHub 账号"></a>2.1.1. 注册 GitHub 账号</h4><p>访问 <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLw==">github<i class="fa fa-external-link-alt"></i></span> 官网，注册账号，(⚠️注意：起名不要太随意！）</p>
-<p><img src="/uncategorized/hello-hexo-Github/GitHub.png" alt="GitHub"></p>
-<h3 id="2-1-2-配置-GitHub-SSH"><a href="#2-1-2-配置-GitHub-SSH" class="headerlink" title="2.1.2. 配置 GitHub SSH"></a>2.1.2. 配置 GitHub SSH</h3>]]></content>
   </entry>
   <entry>
     <title>hello-hexo</title>
@@ -211,6 +204,13 @@
       <tags>
         <tag>hexo</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>hello-hexo-Github</title>
+    <url>/uncategorized/hello-hexo-Github/</url>
+    <content><![CDATA[<h2 id="2-搭建-Hexo-Github"><a href="#2-搭建-Hexo-Github" class="headerlink" title="2. 搭建 Hexo + Github"></a>2. 搭建 Hexo + Github</h2><h3 id="2-1-Github-配置-："><a href="#2-1-Github-配置-：" class="headerlink" title="2.1. Github 配置 ："></a>2.1. Github 配置 ：</h3><h4 id="2-1-1-注册-GitHub-账号"><a href="#2-1-1-注册-GitHub-账号" class="headerlink" title="2.1.1. 注册 GitHub 账号"></a>2.1.1. 注册 GitHub 账号</h4><p>访问 <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLw==">github<i class="fa fa-external-link-alt"></i></span> 官网，注册账号，(⚠️注意：起名不要太随意！）</p>
+<p><img src="/uncategorized/hello-hexo-Github/GitHub.png" alt="GitHub"></p>
+<h3 id="2-1-2-配置-GitHub-SSH"><a href="#2-1-2-配置-GitHub-SSH" class="headerlink" title="2.1.2. 配置 GitHub SSH"></a>2.1.2. 配置 GitHub SSH</h3>]]></content>
   </entry>
   <entry>
     <title>Hello World</title>
