@@ -227,7 +227,7 @@
   </entry>
   <entry>
     <title>修改 vscode 自动生成的HTML模板</title>
-    <url>/uncategorized/%E4%BF%AE%E6%94%B9vscode%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E7%9A%84HTML%E6%A8%A1%E6%9D%BF/</url>
+    <url>/uncategorized/%E4%BF%AE%E6%94%B9%20vscode%20%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E7%9A%84HTML%E6%A8%A1%E6%9D%BF/</url>
     <content><![CDATA[<h1 id="修改-vscode-自动生成的HTML模板"><a href="#修改-vscode-自动生成的HTML模板" class="headerlink" title="修改 vscode 自动生成的HTML模板"></a>修改 vscode 自动生成的HTML模板</h1><ul>
 <li>操作系统：MacOS: 10.14.6</li>
 <li>vscode 版本：2020年8月（1.49版）</li>
@@ -256,20 +256,20 @@
 </ul>
 <ul>
 <li><p>使用 sublime 或 vscode 打开它，搜索关键字（command + F）：<code>defaultVariablesdefaultVariables</code></p>
-<p><img src="/uncategorized/%E4%BF%AE%E6%94%B9vscode%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E7%9A%84HTML%E6%A8%A1%E6%9D%BF/Jietu20201003-114950.JPG" alt="vscode"></p>
+<p>![vscode](./修改 vscode 自动生成的HTML模板/Jietu20201003-114950.JPG)</p>
 </li>
 <li><p>修改为：</p>
 </li>
 </ul>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">const defaultVariables = &#123;</span><br><span class="line">    lang: <span class="string">&#x27;zh-CN&#x27;</span>,</span><br><span class="line">    locale: <span class="string">&#x27;zh-CN&#x27;</span>,</span><br><span class="line">    charset: <span class="string">&#x27;UTF-8&#x27;</span></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 <h3 id="3-修改-HTML-模板生成时的光标初始位置"><a href="#3-修改-HTML-模板生成时的光标初始位置" class="headerlink" title="3. 修改 HTML 模板生成时的光标初始位置"></a>3. 修改 HTML 模板生成时的光标初始位置</h3><p>默认情况下，使用英文： ! 生成H5模板时，光标默认是选中device-width文本状态</p>
-<p><img src="/uncategorized/%E4%BF%AE%E6%94%B9vscode%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E7%9A%84HTML%E6%A8%A1%E6%9D%BF/Jietu20201003-115520.JPG" alt="vscode">)</p>
+<p>![vscode](./修改 vscode 自动生成的HTML模板/Jietu20201003-115520.JPG))</p>
 <ul>
 <li>搜索关键字device-width即可找到如下代码：</li>
 </ul>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="string">&quot;meta:vp&quot;</span>: <span class="string">&quot;meta[name=viewport content=&#x27;width=<span class="variable">$&#123;1:device-width&#125;</span>, initial-scale=<span class="variable">$&#123;2:1.0&#125;</span>&#x27;]&quot;</span>,</span><br></pre></td></tr></table></figure>
 
-<p><img src="/uncategorized/%E4%BF%AE%E6%94%B9vscode%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E7%9A%84HTML%E6%A8%A1%E6%9D%BF/Jietu20201003-122055.JPG" alt="vscode"></p>
+<p>![vscode](./修改 vscode 自动生成的HTML模板/Jietu20201003-122055.JPG)</p>
 <ul>
 <li>去掉 <code>$&#123;1:device-width&#125;</code>  的 <code>$&#123;1:&#125;</code>，<code>$&#123;2:1.0&#125;&#39;]&quot;</code>  的 <code>$&#123;2:]&quot;</code></li>
 <li>去掉之后如下：</li>
@@ -280,9 +280,9 @@
 <li>使用 sublime 或 vscode 打开它，搜索关键字（command + F）：<code>Document</code> </li>
 <li>修改为：<code>Title</code></li>
 </ul>
-<p><img src="/uncategorized/%E4%BF%AE%E6%94%B9vscode%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E7%9A%84HTML%E6%A8%A1%E6%9D%BF/Jietu20201003-133007.JPG" alt="vscode"></p>
+<p>![vscode](./修改 vscode 自动生成的HTML模板/Jietu20201003-133007.JPG)</p>
 <h3 id="5-效果："><a href="#5-效果：" class="headerlink" title="5. 效果："></a>5. 效果：</h3><p>去掉之后默认选中 title 标签里的内容：</p>
-<p><img src="/uncategorized/%E4%BF%AE%E6%94%B9vscode%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E7%9A%84HTML%E6%A8%A1%E6%9D%BF/Jietu20201003-134220.JPG" alt="vscode"></p>
+<p>![vscode](./修改 vscode 自动生成的HTML模板/Jietu20201003-134220.JPG)</p>
 ]]></content>
   </entry>
 </search>
