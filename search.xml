@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title></title>
-    <url>/uncategorized/JavaScript%20%E4%B8%AD%E6%9C%89%208%20%E7%A7%8D%E5%9F%BA%E6%9C%AC%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>JavaScript-基础知识-代码结构与规范</title>
     <url>/uncategorized/JavaScript-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86-%E4%BB%A3%E7%A0%81%E7%BB%93%E6%9E%84%E4%B8%8E%E8%A7%84%E8%8C%83/</url>
     <content><![CDATA[<h3 id="1-2-JavaScript-基础知识-代码结构与规范"><a href="#1-2-JavaScript-基础知识-代码结构与规范" class="headerlink" title="1.2.JavaScript-基础知识-代码结构与规范"></a>1.2.JavaScript-基础知识-代码结构与规范</h3><h4 id="1-2-1-代码结构"><a href="#1-2-1-代码结构" class="headerlink" title="1.2.1 代码结构"></a>1.2.1 代码结构</h4><p>我们可以在代码中编写任意数量的语句，语句和语句之间使用英文分号 (;)，进行分割。</p>
@@ -61,7 +56,7 @@
 ]]></content>
   </entry>
   <entry>
-    <title></title>
+    <title>JavaScript 数据类型</title>
     <url>/uncategorized/JavaScript-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</url>
     <content><![CDATA[<h1 id="JavaScript-数据类型："><a href="#JavaScript-数据类型：" class="headerlink" title="JavaScript 数据类型："></a>JavaScript 数据类型：</h1><h3 id="在-JavaScript-中有8中数据类型（-7-种原始类型，1-种引用类型）："><a href="#在-JavaScript-中有8中数据类型（-7-种原始类型，1-种引用类型）：" class="headerlink" title="在 JavaScript 中有8中数据类型（ 7 种原始类型，1 种引用类型）："></a>在 JavaScript 中有8中数据类型（ 7 种原始类型，1 种引用类型）：</h3><h4 id="1-Number-类型："><a href="#1-Number-类型：" class="headerlink" title="1. Number 类型："></a>1. Number 类型：</h4><p><code>number</code> 用于任何类型的数字: 整数或浮点数，在 ±253 范围内的整数。</p>
 <h4 id="2-BigInt-类型："><a href="#2-BigInt-类型：" class="headerlink" title="2. BigInt 类型："></a>2. BigInt 类型：</h4><p><code>BigInt</code> 用于任意长度的整数。</p>
@@ -231,9 +226,9 @@
 ]]></content>
   </entry>
   <entry>
-    <title></title>
+    <title>修改 vscode 自动生成的HTML模板</title>
     <url>/uncategorized/%E4%BF%AE%E6%94%B9vscode%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E7%9A%84HTML%E6%A8%A1%E6%9D%BF/</url>
-    <content><![CDATA[<h1 id="修改vscode-自动生成的HTML模板"><a href="#修改vscode-自动生成的HTML模板" class="headerlink" title="修改vscode 自动生成的HTML模板"></a>修改vscode 自动生成的HTML模板</h1><ul>
+    <content><![CDATA[<h1 id="修改-vscode-自动生成的HTML模板"><a href="#修改-vscode-自动生成的HTML模板" class="headerlink" title="修改 vscode 自动生成的HTML模板"></a>修改 vscode 自动生成的HTML模板</h1><ul>
 <li>操作系统：MacOS: 10.14.6</li>
 <li>vscode 版本：2020年8月（1.49版）</li>
 <li>注意⚠️：在修改配置文件之前一定要先备份!</li>
