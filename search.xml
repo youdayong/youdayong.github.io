@@ -1,6 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>MAC nvm 安装失败、下载慢问题</title>
+    <url>/post/19d20104.html</url>
+    <content><![CDATA[<h1 id="MAC-nvm-安装失败、下载慢问题"><a href="#MAC-nvm-安装失败、下载慢问题" class="headerlink" title="MAC nvm 安装失败、下载慢问题"></a>MAC nvm 安装失败、下载慢问题</h1><h3 id="1-nvm-安装及报错"><a href="#1-nvm-安装及报错" class="headerlink" title="1. nvm 安装及报错"></a>1. nvm 安装及报错</h3><ul>
+<li>nvm 官方安装方式</li>
+</ul>
+<p><code>curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash </code></p>
+<ul>
+<li>报错内容：<br><code>curl: (7) Failed to connect to raw.githubusercontent.com port 443: Connection refused </code></li>
+</ul>
+<p>由于网络原因无法连接，我更改了 host 也没办法</p>
+<h3 id="2-解决办法"><a href="#2-解决办法" class="headerlink" title="2. 解决办法"></a>2. 解决办法</h3><ul>
+<li>直接从github下载nvm仓库到本地，nvm GitHub 地址：<a href="https://github.com/nvm-sh/nvm">https://github.com/nvm-sh/nvm</a></li>
+</ul>
+<p><code>git clone https://github.com/nvm-sh/nvm.git</code></p>
+<ul>
+<li><p>下载完成之后：<br>![nvm 文件](<a href="https://gitee.com/youdayong/markdown/raw/master/images">https://gitee.com/youdayong/markdown/raw/master/images</a> /20210805003810.png)</p>
+</li>
+<li><p>找到 install.sh 拖到终端即可 回车运行安装</p>
+</li>
+<li><p>或者命令：<code>~/nvm/install.sh</code></p>
+</li>
+</ul>
+<h3 id="3-配置环境"><a href="#3-配置环境" class="headerlink" title="3. 配置环境"></a>3. 配置环境</h3><ul>
+<li>打开终端输入以下代码 ，根据你的终端选择  <code>~/.bash_profile </code> 或  <code>~/.zshrc</code></li>
+</ul>
+<p><code>echo &#39;export NVM_DIR=&quot;$([ -z &quot;$&#123;XDG_CONFIG_HOME-&#125;&quot; ] &amp;&amp; printf %s &quot;$&#123;HOME&#125;/.nvm&quot; || printf %s &quot;$&#123;XDG_CONFIG_HOME&#125;/nvm&quot;)&quot; [ -s &quot;$NVM_DIR/nvm.sh&quot; ] &amp;&amp; \. &quot;$NVM_DIR/nvm.sh&quot; # This loads nvm&#39; &gt;&gt; ~/.zshrc </code></p>
+<h3 id="4-重启终端完成-nvm-测试环境配置-重置终端代码如下"><a href="#4-重启终端完成-nvm-测试环境配置-重置终端代码如下" class="headerlink" title="4. 重启终端完成 nvm 测试环境配置,重置终端代码如下"></a>4. 重启终端完成 nvm 测试环境配置,重置终端代码如下</h3><p>bash：<code>source  ~/.bash_profile</code></p>
+<p>或：</p>
+<p>zsh:      <code>source ~/.zshrc</code></p>
+<ul>
+<li>执行nvm –version 或执行nvm -v 是否可以正常输出，若不行则重启终端再次尝试</li>
+</ul>
+<h3 id="5-nvm-常用命令："><a href="#5-nvm-常用命令：" class="headerlink" title="5. nvm 常用命令："></a>5. nvm 常用命令：</h3><ul>
+<li>nvm -h 获得帮助</li>
+<li>nvm ls-remote 列出所有可安装的node版本</li>
+<li>nvm install 安装指定版本node</li>
+<li>nvm list 查看本地已安装的node版本，同时也会显示当前使用的node版本</li>
+<li>nvm current 显示当前版本</li>
+<li>nvm use 切换使用指定的版本node</li>
+</ul>
+<h3 id="6-nvm-下载慢，下载失败"><a href="#6-nvm-下载慢，下载失败" class="headerlink" title="6. nvm 下载慢，下载失败"></a>6. nvm 下载慢，下载失败</h3><ul>
+<li><p>解决办法 把nvm下载配置成国内镜像</p>
+</li>
+<li><ol>
+<li><p>打开终端输入以下代码，根据你的终端选择  <code>~/.bash_profile </code> 或  <code>~/.zshrc</code></p>
+<ul>
+<li>输入以下环境配置，修改镜像为淘宝源</li>
+</ul>
+<p><code>echo &#39;export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node&#39; &gt;&gt; ~/.zshrc</code></p>
+</li>
+</ol>
+</li>
+<li><ol start="2">
+<li>执行以下命令，使其生效</li>
+</ol>
+<p>  <code>source ~/.bash_profile </code>或 <code>source ~/.zshrc</code></p>
+</li>
+</ul>
+<h3 id="7-安装注意"><a href="#7-安装注意" class="headerlink" title="7. 安装注意"></a>7. 安装注意</h3><ul>
+<li>如果之前全局安装过vue或npm，现在想使用NVM进行管理。则首先需要从全局中删除vue或npm</li>
+</ul>
+<h3 id="8-npm-更换默认源"><a href="#8-npm-更换默认源" class="headerlink" title="8.  npm 更换默认源"></a>8.  npm 更换默认源</h3><p><code>npm config set registry &lt;https://registry.npm.taobao.org&gt;</code></p>
+]]></content>
+      <tags>
+        <tag>Mac 环境配置</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/post/4a17b156.html</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
