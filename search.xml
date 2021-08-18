@@ -83,7 +83,10 @@
 <p><code>npm config set registry &lt;https://registry.npm.taobao.org&gt;</code></p>
 ]]></content>
       <categories>
-        <category>nvm</category>
+        <category>MAC 环境配置</category>
       </categories>
+      <tags>
+        <tag>nvm</tag>
+      </tags>
   </entry>
 </search>
